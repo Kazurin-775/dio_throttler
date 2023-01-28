@@ -1,0 +1,14 @@
+name: dio_throttler
+description: A simple request throttler (rate limiter) for Dio.
+version: 0.1.0
+repository: https://github.com/Kazurin-775/dio_throttler
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dev_dependencies:
+  lints: ^2.0.0
+  # test: ^1.21.0
+dependencies:
+  dio: ^4.0.6
+  mutex: ^3.0.1
